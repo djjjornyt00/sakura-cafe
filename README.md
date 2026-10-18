@@ -35,7 +35,7 @@ sakura-cafe/
 ### 1. Скачайте проект
 
 ```bash
-git clone <адрес-репозитория>
+git clone <https://github.com/djjjornyt00/sakura-cafe>
 cd sakura-cafe
 ```
 
