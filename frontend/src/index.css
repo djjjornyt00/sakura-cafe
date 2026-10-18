@@ -1,0 +1,52 @@
+/* Цвета и шрифты сайта. Меняя значения здесь, меняется весь сайт */
+:root {
+  --milk: #fbf6ef;
+  --pink: #f3cdd3;
+  --pink-soft: #fbe9ec;
+  --red: #8b1e2d;
+  --red-dark: #6a1522;
+  --black: #1c1819;
+  --text: #2b2426;
+  --muted: #6f6366;
+
+  --font-title: 'Playfair Display', Georgia, serif;
+  --font-text: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-jp: 'Yu Mincho', 'Hiragino Mincho ProN', 'Noto Serif JP', serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--milk);
+  color: var(--text);
+  font-family: var(--font-text);
+  line-height: 1.6;
+  overflow-x: hidden; /* никакой горизонтальной прокрутки */
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-title);
+  line-height: 1.2;
+  margin: 0;
+}
