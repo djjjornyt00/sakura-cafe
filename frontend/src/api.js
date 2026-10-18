@@ -28,4 +28,3 @@ export async function createReservation(data) {
 
   return result;
 }
-

@@ -8,6 +8,7 @@ import Menu from './pages/Menu.jsx';
 import About from './pages/About.jsx';
 import Reservation from './pages/Reservation.jsx';
 import Contacts from './pages/Contacts.jsx';
+import NotFound from './pages/NotFound.jsx';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/reservation" element={<Reservation />} />
           <Route path="/contacts" element={<Contacts />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />

@@ -825,3 +825,22 @@
     order: -1;
   }
 }
+
+
+/* ---------- Страница 404 ---------- */
+.not-found {
+  text-align: center;
+}
+
+.not-found__mark {
+  display: grid;
+  place-items: center;
+  width: 84px;
+  height: 84px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: var(--red);
+  color: #fff;
+  font-family: var(--font-jp);
+  font-size: 2.4rem;
+}
